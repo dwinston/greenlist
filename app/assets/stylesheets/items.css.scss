@@ -1,0 +1,31 @@
+// Place all the styles related to the Items controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body { 
+  background-color: black; 
+  color: green;
+}
+.items { 
+  margin-bottom: 20px;
+}
+#red_items { color: red; }
+#yellow_items { color: yellow; }
+#green_items { color: green; }
+
+.edit_item {
+  a {
+    color: #999;
+    text-decoration: none;
+  }
+}
+
+#new_link {
+  color: #999;
+  text-decoration: none;
+}
+
+#item_name {
+  background-color: #ddd;
+  width: 7em;
+}

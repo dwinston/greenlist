@@ -1,0 +1,5 @@
+<%= form_for item, remote: true do |f| %>
+  <%= f.submit 'Update' %>
+  <%= f.label item.name %>
+  <%= link_to("&times;".html_safe, item, method: :delete, data: {confirm: 'Are you sure?'}, remote: true) %>
+<% end %>

@@ -1,0 +1,11 @@
+<h1>Greenlist</h1>
+<div class="items", id="red_items">
+  <%= render @red_items %>
+</div>
+<div class="items", id="yellow_items">
+  <%= render @yellow_items %>
+</div>
+<div class="items", id="green_items">
+  <%= render @green_items %>
+</div>
+<%= link_to "Add Item", new_item_path, id: 'new_link', remote: true %>

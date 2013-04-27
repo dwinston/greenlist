@@ -1,0 +1,4 @@
+$("#new_item").remove();
+$("#new_link").show();
+$("#red_items").append("<%= j render(@item) %>");
+$('#edit_item_<%= @item.id %>').submitOnClick();

@@ -1,0 +1,11 @@
+<% case @item.status %>
+<% when Item.RED %>
+  $('#edit_item_<%= @item.id %>').appendTo('#red_items');
+<% when Item.YELLOW %>
+  $('#edit_item_<%= @item.id %>').appendTo('#yellow_items');
+<% when Item.GREEN %>
+  $('#edit_item_<%= @item.id %>').appendTo('#green_items');
+<% else %>
+  alert('unknown item status');
+  $('#edit_item_<%= @item.id %>').appendTo('#red_items');
+<% end %>

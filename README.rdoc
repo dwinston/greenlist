@@ -1,0 +1,7 @@
+== Greenlist
+
+Greenlist is for keeping track of stuff you always want to have in stock. It's like a grocery list, but only for your staples.
+
+When you add an item, it is colored red. Red is bad; red means your supply of that item is depleted. When you have enough of it again, click on it to make it green. Yay! When you're running low, click on it again to make it yellow (warning!). And again when you're out of it, making it red once more.
+
+Keep it green! :)
